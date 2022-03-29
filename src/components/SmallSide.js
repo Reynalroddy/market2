@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import links from "../data";
 import { NavLink } from "react-router-dom";
-import { FaTimes, FaAlignLeft } from "react-icons/fa";
+import { FaTimes } from "react-icons/fa";
 import { useDispatch, useSelector } from "react-redux";
 import { toggleHeader } from "../redux/headerSlice";
 const SmallSide = () => {

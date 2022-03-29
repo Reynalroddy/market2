@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { toggleHeader } from "../redux/headerSlice";
 import { BsFullscreen, BsFillBrightnessHighFill } from "react-icons/bs";
 import { BiSearchAlt } from "react-icons/bi";

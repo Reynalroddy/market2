@@ -4,7 +4,7 @@ import { userColumns, userRows } from "../data";
 import { Link } from "react-router-dom";
 
 export default function DataGridDemo() {
-  const [data, setData] = useState(userRows);
+  const [data] = useState(userRows);
   const actionColumn = [
     {
       field: "action",

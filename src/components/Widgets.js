@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { FaBell, FaChevronDown } from "react-icons/fa";
+import { FaChevronDown } from "react-icons/fa";
 const Widgets = ({ title, price, icon, color, bg }) => {
   return (
     <Wrapper>
